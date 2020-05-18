@@ -1,5 +1,5 @@
 name: UHCRun
 main: UHCRun\UHCRun
-version: 0.0.1
-api: [3.12.0]
+version: 1.5.2
+api: [3.9.0]
 author: petrlivecssss
