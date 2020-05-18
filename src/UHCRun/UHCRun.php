@@ -36,8 +36,8 @@ class UHCRun extends PluginBase implements Listener{
     public function TestCraft(PlayerJoinEvent $event){
         //$event->getPlayer()->sendDataPacket($this->test->getCraftingDataPacket());
         if($this->test instanceof Recipes)
-            $event->getPlayer()->dataPacket($this->test->getCraftingDataPacket()); //remove Api: 4.0.0
-            //$event->getPlayer()->getNetworkSession()->queueCompressed($this->test->getCraftingDataPacket()); Api: 4.0.0
+            $event->getPlayer()->dataPacket($this->test->getCraftingDataPacket()); //remove Api: 3.11.3
+            //$event->getPlayer()->getNetworkSession()->queueCompressed($this->test->getCraftingDataPacket()); Api: 3.11.3
 
         //https://timings.pmmp.io/?id=1978
 
